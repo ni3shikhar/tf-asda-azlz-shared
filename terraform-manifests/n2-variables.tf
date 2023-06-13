@@ -31,7 +31,7 @@ variable "vnet_address_space_asda_shared" {
 variable "var_bastion" {
   description = "Set as YES if want to create Azure Bastion setup"
   type = string
-  default = "NO"
+  default = "YES"
 }
 
 # 5. bastion subnet
